@@ -26,10 +26,10 @@ Tech Stack
 Project Structure
 /portfolio-project/
 │
-├── index.html        # Home Page
-├── biodata.html      # Biodata Page
-├── resume.html       # Resume Page
-├── style.css         # Shared styling
-├── script.js         # JavaScript for interactivity
-└── README.md         # Project overview
+├── index.html        
+├── biodata.html      
+├── resume.html       
+├── style.css         
+├── script.js         
+└── README.md         
 ```

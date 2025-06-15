@@ -1,4 +1,4 @@
-This is a personal portfolio website project using HTML, CSS, and JavaScript. It features a responsive design, dark mode toggle, and clean navigation. The content is minimal and created for academic or demo purposes as part of an assignment, but it can be easily expanded with more details or sections as needed.
+```This is a personal portfolio website project using HTML, CSS, and JavaScript. It features a responsive design, dark mode toggle, and clean navigation. The content is minimal and created for academic or demo purposes as part of an assignment, but it can be easily expanded with more details or sections as needed.
 
 Pages
 
@@ -22,7 +22,7 @@ Tech Stack
 - CSS
 - JavaScript 
 
-
+Project Structure
 /portfolio-project/
 │
 ├── index.html        # Home Page
@@ -31,3 +31,4 @@ Tech Stack
 ├── style.css         # Shared styling
 ├── script.js         # JavaScript for interactivity
 └── README.md         # Project overview
+```

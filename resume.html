@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Resume</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    .nav-bar {
+      list-style: none;
+      display: flex;
+      justify-content: flex-start;
+      background-color: #4caf50;
+      padding: 10px;
+      margin: 0;
+    }
+
+    .nav-bar li {
+      margin-right: 15px;
+    }
+
+    .nav-bar a {
+      color: white;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .nav-bar a.active {
+      text-decoration: underline;
+    }
+
+    .resume {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    header h1 {
+      font-size: 2rem;
+      color: #4caf50;
+    }
+
+    header .highlight {
+      color: #ff5722;
+    }
+
+    section {
+      margin-bottom: 20px;
+    }
+
+    section h2 {
+      border-bottom: 2px solid #4caf50;
+      padding-bottom: 5px;
+      margin-bottom: 15px;
+      color: #4caf50;
+    }
+
+    .skills {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .skills li {
+      background: #4caf50;
+      color: white;
+      padding: 5px 10px;
+      border-radius: 4px;
+      margin: 5px;
+    }
+
+    .entry {
+      margin-bottom: 15px;
+    }
+
+    .entry h3 {
+      margin: 0;
+      font-size: 1.2rem;
+      color: #ff5722;
+    }
+
+    .entry p {
+      margin: 5px 0;
+      line-height: 1.5;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 0.9rem;
+      color: #666;
+    }
+
+    footer p {
+      margin: 0;
+    }
+
+    a {
+      color: #4caf50;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <ul class="nav-bar">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="resume.html" class="active">Resume</a></li>
+    <li><a href="biodata.html">Biodata</a></li>
+  </ul>
+
+  <div class="resume">
+    <header>
+      <h1>SAHANA A <span class="highlight"></span></h1>
+      <h2><class="highlight">BE CSE</h2>
+      <p>Phone: +91 9999999999 | Email: email@example.com</p>
+      <p>
+        LinkedIn: <a href="#">linkedin.com/in/name</a> |
+        GitHub: <a href="#">github.com/name</a>
+      </p>
+    </header>
+
+    <section>
+     <h2>Education</h2>
+     <div class="entry">
+        <h3>10th Grade</h3>
+        <p>Vishwa Venkateshwara International School</p>
+      </div>
+      <div class="entry">
+        <h3>2nd PU</h3>
+        <p>KBC PU College</p>
+      </div>
+      <div class="entry">
+        <h3>BE in Computer Science and Engineering, Bengaluru</h3>
+        <p>JSS Academy of Technical Education, Bengaluru</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <ul class="skills">
+	<li>Java</li>
+        <li>Python</li>
+        <li>C</li>
+        <li>HTML & CSS</li>
+        <li>Machine Learning</li>
+        <li>Web Development</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+      <div class="entry">
+        <h3>Student Management System </h3>
+        <p>Java and MySQL based application</p>
+      </div>
+      <div class="entry">
+        <h3>Correlation Analysis of Risk Factors of Diabetes</h3>
+        <p>Python ML and visualization project</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Hobbies</h2>
+      <p>Reading novels, watching movies, writing stories, cooking and drawing.</p>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 SAHANA A | All Rights Reserved</p>
+    </footer>
+  </div>
+</body>
+</html>

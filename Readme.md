@@ -1,4 +1,4 @@
-This is a personal portfolio website project that displays my profile, skills, resume, and contact details using HTML, CSS, and JavaScript. It includes features like dark mode, responsive design, and clean navigation. The content is for academic/demo purposes and can be easily customized.
+This is a personal portfolio website project using HTML, CSS, and JavaScript. It features a responsive design, dark mode toggle, and clean navigation. The content is minimal and created for academic or demo purposes as part of an assignment, but it can be easily expanded with more details or sections as needed.
 
 Pages
 
